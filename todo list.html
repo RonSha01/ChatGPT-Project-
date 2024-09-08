@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO List</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1><i class="fas fa-tasks"></i> TODO List</h1>
+    <div class="input-section">
+      <input type="text" id="taskInput" placeholder="Enter task...">
+      <button onclick="addTask()">Add Task</button>
+    </div>
+    <ul id="taskList"></ul>
+    <button class="clear-btn" onclick="clearCompleted()">Clear All</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+

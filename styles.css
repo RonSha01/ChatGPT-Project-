@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #3498db, #2ecc71); /* Adjust colors as desired */
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.clear-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  background-color: #c0392b;
+}
+/* Style the cross icon */
+.cross-icon {
+  margin-left: 10px;
+  color: #e74c3c; /* Red color */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+/* Change color of cross icon on hover */
+.cross-icon:hover {
+  color: #c0392b; /* Darker red color */
+}
+/* Style the icons */
+li i {
+  font-size: 20px;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+/* Style the circle icon for incomplete tasks */
+.fa-circle {
+  color: #e74c3c; /* Red color */
+}
+
+/* Style the checkmark icon for completed tasks */
+.fa-check-circle {
+  color: #2ecc71; /* Green color */
+}
+
+/* Style the icons */
+li {
+  display: flex;
+  align-items: center;
+}
+
+li i {
+  font-size: 20px;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+/* Style the icons */
+li {
+  display: flex;
+  align-items: center;
+}
+
+li i {
+  font-size: 20px;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+/* Style the cross icon */
+.cross-icon {
+  margin-left: auto;
+  color: #e74c3c; /* Red color */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+
